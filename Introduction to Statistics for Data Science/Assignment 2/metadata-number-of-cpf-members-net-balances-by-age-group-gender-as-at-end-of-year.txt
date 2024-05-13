@@ -1,0 +1,101 @@
+# Metadata for Number of CPF Members & Net Balances by Age Group & Gender as at End of Year
+---
+Identifier: '846d4671-4d54-4d60-a0ad-fecc17699404'
+Name: 'number-of-cpf-members-net-balances-by-age-group-gender-as-at-end-of-year'
+Title: 'Number of CPF Members & Net Balances by Age Group & Gender as at End of Year'
+Description: 'Number of CPF members and net balances by age group and gender as at
+  end of year'
+Topics:
+  - 'Economy'
+Keywords:
+  - 'Age Group'
+  - 'CPF'
+  - 'Gender'
+  - 'Savings'
+  - 'Social Security'
+Publisher:
+  Name: 'Central Provident Fund Board'
+  Admin 1:
+    Name: 'Chong Chiew Fong'
+    Department: 'Management Information Department'
+    Email: 'CHONG_Chiew_Fong@cpf.gov.sg'
+Sources:
+  - 'Central Provident Fund Board'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2014-01-01 to 2017-12-31'
+Last Updated: '2020-04-27T02:58:52.249664'
+Resources:
+  -
+    Identifier: '7d16aaa8-2654-4a2f-82c2-cba64acfa5bf'
+    Title: 'Number of CPF members by age group & gender as at end of year'
+    Url: 'https://storage.data.gov.sg/number-of-cpf-members-net-balances-by-age-group-gender-as-at-end-of-year/resources/number-of-cpf-members-by-age-group-gender-as-at-end-of-year-2019-03-12T09-48-00Z.csv'
+    Format: 'CSV'
+    Coverage: '2014-01-01 to 2017-12-31'
+    Description:
+      - 'Figures include self-employed persons.'
+      - 'For unspecified gender, counts for age groups >45 years old are rounded to
+        nearest hundred. For the rest of the age groups and gender, counts are rounded
+        to the nearest thousand.'
+    Last Updated: '2019-03-12T09:48:00.342470'
+    Schema:
+      -
+        Name: 'yr'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'age_grp'
+        Title: 'Age group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'gender'
+        Title: 'Gender'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no_of_mbrs'
+        Title: 'Number of members'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: 'For unspecified gender, counts for age groups >45 years old
+          are rounded to nearest hundred. For the rest of the age groups and gender,
+          counts are rounded to the nearest thousand.'
+  -
+    Identifier: 'b6a8dcbd-303e-4450-bfef-63ca43cd5322'
+    Title: 'Net balances of CPF members by age group & gender as at end of year'
+    Url: 'https://storage.data.gov.sg/number-of-cpf-members-net-balances-by-age-group-gender-as-at-end-of-year/resources/net-balances-of-cpf-members-by-age-group-gender-as-at-end-of-year-2019-03-25T01-57-14Z.csv'
+    Format: 'CSV'
+    Coverage: '2014-01-01 to 2017-12-31'
+    Description:
+      - 'Figures include balances of self-employed persons.'
+      - 'Figures are rounded to the nearest thousand dollars.'
+    Last Updated: '2019-03-25T01:57:14.279296'
+    Schema:
+      -
+        Name: 'yr'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'age_grp'
+        Title: 'Age group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'gender'
+        Title: 'Gender'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'net_bal_amt'
+        Title: 'Net balance amount'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$'
+        Description:
+          - 'Figures include balances of self-employed persons.'
+          - 'Figures are rounded to the nearest thousand dollars.'
